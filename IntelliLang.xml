@@ -1,0 +1,16 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="HTML" injector-id="php">
+      <display-name>&quot;&lt;html&gt;&quot;</display-name>
+      <place disabled="true"><![CDATA[and(not(phpLiteralExpression().withSuperParent(2, phpFunctionReference().withName(or(string().startsWith("strip_tags"), string().startsWith("preg_"))))), phpLiteralMatchesBrics(".*\\</?<anyname>( .*)?(/)?>.*"))]]></place>
+    </injection>
+    <injection language="HTML" injector-id="php">
+      <display-name>&lt;&lt;&lt; HTML</display-name>
+      <place disabled="true"><![CDATA[phpLiteralExpression("HTML")]]></place>
+    </injection>
+    <injection language="XML" injector-id="php">
+      <display-name>&lt;&lt;&lt; XML</display-name>
+      <place disabled="true"><![CDATA[phpLiteralExpression("XML")]]></place>
+    </injection>
+  </component>
+</application>

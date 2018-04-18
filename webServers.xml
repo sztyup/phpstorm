@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="90c3a556-76b4-4cac-b270-95a634cf202a" name="server" url="http://auchan-ecommerce.loginet.localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
